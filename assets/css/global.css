@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+@font-face {
+    font-family: 'Neue Machina';
+    src: url('/assets/font/NeueMachina-Regular.otf');
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+.main {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+}
+
+.main::before{
+    content: '';
+    background-image: url('/assets/img/backie.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* width: 2560px;
+    height: 1964px; */
+    width: 128vw;
+    height: 140vh;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: blur(100px);
+}
+
+/* .main::after{
+    content: '';
+    background-image: url('/assets/img/backie-top.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 80vw;
+    height: 90vh;
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    transform:rotate(180deg);
+} */
