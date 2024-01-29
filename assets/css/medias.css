@@ -30,4 +30,8 @@
         margin: 1rem auto; 
     }
 
+    .skills{
+        display: grid;
+        grid-template-columns: 1fr 1fr;    
+    }
 }

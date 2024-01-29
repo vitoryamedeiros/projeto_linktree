@@ -1,0 +1,44 @@
+
+.skills{
+    flex-direction: column;
+}
+
+.skills .staks h3{
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.skills .staks ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.skills .staks ul li img{
+    max-width: 50px;
+    margin: 0.5rem;
+}
+
+.skills .personal h3{
+    margin: .7rem 0rem;
+}
+
+.skills .personal ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.skills .personal ul li{
+    margin-left: 2rem;
+    padding:.5rem;
+}

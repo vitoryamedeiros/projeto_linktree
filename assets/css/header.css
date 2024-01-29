@@ -16,7 +16,7 @@
     height: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url(/assets/icons/menu.svg);
+    background-image: url(/projeto_linktree/assets/icons/menu.svg);
 }
 
 .photo {
@@ -56,17 +56,17 @@
 }
 
 .information .job::before {
-    background-image: url('/assets/icons/contact.svg');
+    background-image: url('/projeto_linktree/assets/icons/contact.svg');
 }
 
 .information .location::before {
-    background-image: url('/assets/icons/location.svg');
+    background-image: url('/projeto_linktree/assets/icons/location.svg');
 }
 
 .information .number::before {
-    background-image: url('/assets/icons/zap.svg');
+    background-image: url('/projeto_linktree/assets/icons/zap.svg');
 }
 
 .information .email::before {
-    background-image: url('/assets/icons/email.svg');
+    background-image: url('/projeto_linktree/assets/icons/email.svg');
 }
